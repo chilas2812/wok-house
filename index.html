@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wok House i Svendborg – friske baguetter, sandwich og takeaway i Vestergade." />
+  <title>Wok House Svendborg | Baguetter & Takeaway</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Wok House forside">
+        <span class="brand-mark">WH</span>
+        <span>
+          <strong>Wok House</strong>
+          <small>Svendborg</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Åbn menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="#menu">Menukort</a>
+        <a href="#build">Bland din baguette</a>
+        <a href="#about">Om os</a>
+        <a href="#reviews">Anmeldelser</a>
+        <a href="#contact">Kontakt</a>
+        <a class="btn btn-small" href="tel:+4563218060">Ring & bestil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Vestergade 6 · Svendborg</span>
+          <h1>Sprøde baguetter.<br><span>Masser af fyld.</span></h1>
+          <p class="hero-text">
+            Friske, fyldige baguetter og takeaway midt i Svendborg. Vælg en klassiker eller sammensæt din baguette, som du vil have den.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="tel:+4563218060">Ring 63 21 80 60</a>
+            <a class="btn btn-ghost" href="#menu">Se menu</a>
+          </div>
+
+          <div class="rating-row">
+            <div class="rating-score">4,6</div>
+            <div>
+              <div class="stars" aria-label="4,6 ud af 5 stjerner">★★★★★</div>
+              <small>125 anmeldelser på Google</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img
+            src="https://images.unsplash.com/photo-1647169953827-a7c85f324caf?auto=format&fit=crop&w=1400&q=85"
+            alt="Frisk fyldt baguette"
+          />
+          <div class="floating-card">
+            <span>Åbent i dag</span>
+            <strong id="todayHours">10.00 – 19.00</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info">
+      <div class="container quick-grid">
+        <div class="quick-item">
+          <span class="icon">⌖</span>
+          <div><small>Find os</small><strong>Vestergade 6, 5700 Svendborg</strong></div>
+        </div>
+        <div class="quick-item">
+          <span class="icon">☎</span>
+          <div><small>Bestil</small><strong>63 21 80 60</strong></div>
+        </div>
+        <div class="quick-item">
+          <span class="icon">↗</span>
+          <div><small>Service</small><strong>Baguetter · Takeaway</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Menukort</span>
+            <h2>Baguetter</h2>
+          </div>
+          <p>Demo-priserne herunder kan ændres direkte i <strong>index.html</strong>, når de korrekte priser er bekræftet.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card featured">
+            <span class="tag">Populær</span>
+            <img src="https://images.unsplash.com/reserve/jCCsCae7RwCDOKTCA2Ji_reggeli%20-%20sonk%C3%A1s%20szendvics.JPG?auto=format&fit=crop&w=1400&q=85" alt="Frisk baguette med kylling og grønt" />
+            <div class="menu-body">
+              <h3>Krydderkylling & bacon</h3>
+              <p>Sprød baguette med krydderkylling, bacon, friske grøntsager og dressing.</p>
+              <div class="price-row">
+                <span class="price">79 kr.</span>
+                <span class="demo-label">demo-pris</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1647169953827-a7c85f324caf?auto=format&fit=crop&w=1400&q=85" alt="Fyldt baguette med friske grøntsager" />
+            <div class="menu-body">
+              <h3>Bland-selv baguette</h3>
+              <p>Vælg selv fyld, grønt og dressing og få baguetten lavet, som du vil have den.</p>
+              <div class="price-row">
+                <span class="price">fra 69 kr.</span>
+                <span class="demo-label">demo-pris</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/reserve/jCCsCae7RwCDOKTCA2Ji_reggeli%20-%20sonk%C3%A1s%20szendvics.JPG?auto=format&fit=crop&w=1400&q=85" alt="Frisk fyldt baguette" />
+            <div class="menu-body">
+              <h3>Kylling baguette</h3>
+              <p>Sprød baguette med kylling, frisk salat, tomat, agurk og dressing.</p>
+              <div class="price-row">
+                <span class="price">75 kr.</span>
+                <span class="demo-label">demo-pris</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1647169953827-a7c85f324caf?auto=format&fit=crop&w=1400&q=85" alt="Baguette med skinke og grønt" />
+            <div class="menu-body">
+              <h3>Skinke baguette</h3>
+              <p>Baguette med skinke, sprøde grøntsager og valgfri dressing.</p>
+              <div class="price-row">
+                <span class="price">69 kr.</span>
+                <span class="demo-label">demo-pris</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="notice">
+          <strong>Vigtigt før siden går live:</strong>
+          Udskift demo-priserne med Wok Houses rigtige priser. Resten af kontaktoplysningerne og åbningstiderne er sat ud fra offentligt tilgængelige oplysninger.
+        </div>
+      </div>
+    </section>
+
+    <section class="section build-section" id="build">
+      <div class="container build-grid">
+        <div class="build-copy">
+          <span class="eyebrow">Bland din baguette</span>
+          <h2>Byg din baguette</h2>
+          <p>Sammensæt din egen baguette. Vælg fyld og dressing og se en estimeret demo-pris.</p>
+
+          <div class="builder">
+            <label>
+              1. Vælg baguette
+              <select id="bread">
+                <option value="0">Lys baguette</option>
+                <option value="5">Grov baguette (+5 kr.)</option>
+              </select>
+            </label>
+
+            <label>
+              2. Vælg fyld
+              <select id="protein">
+                <option value="0">Krydderkylling</option>
+                <option value="5">Kylling & bacon (+5 kr.)</option>
+                <option value="0">Skinke</option>
+                <option value="0">Vegetar</option>
+              </select>
+            </label>
+
+            <label>
+              3. Vælg dressing
+              <select id="dressing">
+                <option value="0">Karry</option>
+                <option value="0">Hvidløg</option>
+                <option value="0">Creme fraiche</option>
+                <option value="0">Chili</option>
+              </select>
+            </label>
+
+            <div class="builder-total">
+              <span>Demo-pris</span>
+              <strong id="builderPrice">69 kr.</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="build-image">
+          <img src="https://images.unsplash.com/reserve/jCCsCae7RwCDOKTCA2Ji_reggeli%20-%20sonk%C3%A1s%20szendvics.JPG?auto=format&fit=crop&w=1400&q=85" alt="Frisk baguette klar til servering" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">Lokalt i Svendborg</span>
+          <h2>Et hurtigt stop i Vestergade</h2>
+        </div>
+        <div class="about-text">
+          <p>
+            Wok House ligger på Vestergade 6 i Svendborg. På denne hjemmeside er fokus lagt på stedets baguetter og takeaway, med en enkel og overskuelig menu til både mobil og computer.
+          </p>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Wok+House+Vestergade+6+5700+Svendborg" target="_blank" rel="noopener">
+            Få rutevejledning →
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading reviews-heading">
+          <div>
+            <span class="eyebrow">Anmeldelser</span>
+            <h2>Hvad synes du?</h2>
+          </div>
+          <p>Giv Wok House en anmeldelse direkte på siden. Nye demo-anmeldelser gemmes i din browser.</p>
+        </div>
+
+        <div class="reviews-layout">
+          <div class="review-list" id="reviewList">
+            <article class="review-card">
+              <div class="review-top">
+                <div class="review-avatar">M</div>
+                <div>
+                  <strong>Marie</strong>
+                  <div class="review-stars">★★★★★</div>
+                </div>
+              </div>
+              <p>God baguette med masser af fyld og hurtig betjening.</p>
+            </article>
+
+            <article class="review-card">
+              <div class="review-top">
+                <div class="review-avatar">J</div>
+                <div>
+                  <strong>Jonas</strong>
+                  <div class="review-stars">★★★★★</div>
+                </div>
+              </div>
+              <p>Frisk og sprød baguette. Et godt sted til en hurtig frokost.</p>
+            </article>
+          </div>
+
+          <form class="review-form" id="reviewForm">
+            <span class="eyebrow">Skriv en anmeldelse</span>
+            <h3>Del din oplevelse</h3>
+
+            <label>
+              Dit navn
+              <input id="reviewName" type="text" maxlength="40" placeholder="Fx Mads" required>
+            </label>
+
+            <label>
+              Antal stjerner
+              <select id="reviewStars" required>
+                <option value="5">5 stjerner</option>
+                <option value="4">4 stjerner</option>
+                <option value="3">3 stjerner</option>
+                <option value="2">2 stjerner</option>
+                <option value="1">1 stjerne</option>
+              </select>
+            </label>
+
+            <label>
+              Din anmeldelse
+              <textarea id="reviewText" maxlength="280" rows="5" placeholder="Hvordan var din baguette og oplevelse?" required></textarea>
+            </label>
+
+            <button class="btn review-submit" type="submit">Send anmeldelse</button>
+            <small class="form-message" id="reviewMessage"></small>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hours-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <span class="eyebrow">Kontakt</span>
+          <h2>Klar til frokost?</h2>
+          <p>Ring din bestilling ind og afhent den i Vestergade.</p>
+          <a class="btn" href="tel:+4563218060">63 21 80 60</a>
+
+          <div class="contact-details">
+            <p><strong>Adresse</strong><br>Vestergade 6<br>5700 Svendborg</p>
+            <p><strong>Service</strong><br>Spisning på stedet<br>Takeaway</p>
+          </div>
+        </div>
+
+        <div class="hours-card">
+          <div class="hours-top">
+            <div>
+              <span class="eyebrow">Åbningstider</span>
+              <h3>Hvornår har vi åbent?</h3>
+            </div>
+            <span class="open-pill" id="openStatus">Tjekker…</span>
+          </div>
+
+          <ul class="hours-list">
+            <li><span>Mandag</span><strong>10.00 – 19.00</strong></li>
+            <li><span>Tirsdag</span><strong>10.00 – 19.00</strong></li>
+            <li><span>Onsdag</span><strong>10.00 – 19.00</strong></li>
+            <li><span>Torsdag</span><strong>10.00 – 19.00</strong></li>
+            <li><span>Fredag</span><strong>10.00 – 19.00</strong></li>
+            <li><span>Lørdag</span><strong>10.00 – 15.00</strong></li>
+            <li><span>Søndag</span><strong>Lukket</strong></li>
+          </ul>
+          <small class="hours-note">Åbningstider kan ændre sig på helligdage.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-inner">
+        <div>
+          <span class="eyebrow light">Takeaway i Svendborg</span>
+          <h2>Sulten? Ring og bestil din baguette.</h2>
+        </div>
+        <a class="btn btn-light" href="tel:+4563218060">Ring og bestil</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="brand footer-brand">
+        <span class="brand-mark">WH</span>
+        <span><strong>Wok House</strong><small>Svendborg</small></span>
+      </div>
+      <p>Vestergade 6 · 5700 Svendborg · 63 21 80 60</p>
+      <p class="footer-small">Demo-hjemmeside · Baguette-menu og priser skal bekræftes før offentlig lancering.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
